@@ -32,6 +32,12 @@
     -o-object-position: 10% top;
     object-position: 10% top;
   }
+  .service_section .service_box h3 {
+    font-size: 1.2em;
+  }
+  .service_section .service_box p {
+    font-size: 0.8em;
+  }
 }
 
 @media (max-width: 767px) {

@@ -17,7 +17,9 @@
 
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-
+   
+  <!-- font awesome link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <!-- fonts style -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 
@@ -60,10 +62,21 @@
                 <a class="nav-link" href="about.html"> About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="departments.html">Departments</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="doctors.html">Doctors</a>
+               <div class="btn-group ">
+                <button class="btn btn-success dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
+                      For Patient
+                </button>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="triggerId">
+                  <a class="dropdown-item" href="#">Book Appointment</a>
+                  <a class="dropdown-item" href="#">Find Doctor</a>
+                  <a class="dropdown-item" href="#">Find Hospitals</a>
+               
+                  <a class="dropdown-item" href="#">Action</a>
+                  <div class="dropdown-divider"></div>
+               
+                </div>
+               </div>
               </li>
               <li class="nav-item active">
                 <a class="nav-link" href="contact.html">Contact Us <span class="sr-only">(current)</span> </a>
@@ -80,9 +93,86 @@
     </header>
     <!-- end header section -->
   </div>
+  <section class="contact_section layout_padding bg-white">
+   <div class="container">
+    <div class="row">
+      <div class="col-md-4"><div class="page">
+        <i class="fa-brands fa-rocketchat fa-2xl" style="color: rgb(255, 255, 255);"></i> <br>
+        <span>
+           <a href="">  Chat with Us !</a>
+        </span>
+     </div></div>
+      <div class="col-md-4">
+        <div class="page">
+          <i class="fa-solid fa-at fa-2xl" style="color: rgb(168, 233, 210);"></i> <br>
+           <span>
+               <a href="">Mail us for contact !</a>
+             </span>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="page">
+          <i class="fa-brands fa-whatsapp fa-2xl" style="color: #70ff5e;"></i> <br>
+         <span>
+          <a href="">Contact us throw  Whatsapp!</a>
+        </span>
+      </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4"><div class="page">
+        <i class="fa-solid fa-phone fa-2xl" style="color: #93c9f1;"></i> <br>
+        <span>
+          <a href="">Contact with our agent throw call !</a>
+      </span>
+    </div></div>
+      <div class="col-md-4">
+        <div class="page">
+          <i class="fa fa-location-arrow  fa-2xl" aria-hidden="true"></i> <br>
+          <span>
+            <a href="">Visit our main branch!</a>
+         </span>
+       </div>
+      </div>
+      <div class="col-md-4">
+        <div class="page">
+          <i class="fa-brands fa-square-instagram fa-2xl" style="color: #fc2f2f;"></i> <br>
+         <span>
+           <a href="">Contact us throw Instagram !</a>
+         </span>
+       </div>
+      </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="page">
+        <i class="fa-brands fa-pinterest fa-2xl" style="color: rgb(221, 199, 199);"></i> <br>
+       <span>
+         <a href="">Contact us throw Pinterest !</a>
+       </span>
+   </div>
+    </div>
+    <div class="col-md-4">
+      <div class="page">
+        <i class="fa-brands fa-linkedin fa-2xl" style="color: rgb(141, 161, 199);"></i> <br>
+      <span>
+       <a href="">Contact us throw Linkdin !</a>
+      </span>
+   </div>
+    </div>
+    <div class="col-md-4">
+      <div class="page">
+        <i class="fa-brands fa-facebook fa-2xl" style="color: blue;"></i> <br>
+       <span>
+        <a href="">Contact us throw Facebook !</a>
+       </span>
+    </div>
+    </div>
+  </div>
+   </div>
+  </section>
 
-  <!-- contact section -->
-  <section class="contact_section layout_padding">
+  <section class="contact_section layout_padding  ">
     <div class="container">
       <div class="heading_container">
         <h2>
@@ -131,6 +221,7 @@
   </section>
   <!-- end contact section -->
 
+  
   <!-- footer section -->
   <footer class="footer_section">
     <div class="container">
